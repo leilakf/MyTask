@@ -1,0 +1,93 @@
+@import "assets/css/bootstrap.min.css";
+
+@font-face {
+  font-family: 'iransans';
+  src: url('assets/fonts/IRANSans-Light-web.woff') format('woff'), /* Pretty Modern Browsers */
+  url('assets/fonts/IRANSans-Light-web.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'iransans';
+  src: url('assets/fonts/IRANSans-Bold-web.woff') format('woff'), /* Pretty Modern Browsers */
+  url('assets/fonts/IRANSans-Bold-web.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: 'iransans',sans-serif;
+ direction: rtl;
+ text-align: right;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.selected-row{
+  background-color: rgb(187, 252, 180) !important;
+}
+unselectet-row{
+   background-color:transparent !important;
+}
+.navbar {
+  padding: .0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  padding: 2px 10px;
+  font-size: .9rem;
+   
+}
+
+.active_link {
+  background-color: #224461;
+  color: white;
+}
+.card-title{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.completedRow{
+  background-color: rgb(151, 212, 240);
+}
+
+li{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+
+.menu-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.menu-box table {
+  margin: 0;
+  width: 100%;
+}
+
+.menu-box th,
+.menu-box td {
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.menu-box th {
+  background-color: #ddd;
+}
+
+.menu-box td {
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-box tr:hover td {
+  background-color: #f5f5f5;
+}
